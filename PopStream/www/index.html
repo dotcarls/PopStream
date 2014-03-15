@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Welcome to PopStream</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="welcome">
+        <h1 class="text-center">PopStream</h1>
+        <div class="logo">
+          <img src="img/logo.png" id="logo">
+        </div>
+      </div>
+      <form class="form-signin" role="form">
+        <h3 class="form-signin-heading">Please sign in</h3>
+        <input type="email" class="form-control" placeholder="Email address" required autofocus>
+        <br>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <a href="landing.html" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</a>
+      </form>
+
+    </div> <!-- /container -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <script>
+      var start = function (){
+        $("#logo").rotate({
+          angle:0, 
+          animateTo:360, 
+        });
+      };
+
+      start();
+      setInterval(function (){
+        $("#logo").rotate({
+          angle:0, 
+          animateTo:360, 
+        });
+      }, 3200);
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>

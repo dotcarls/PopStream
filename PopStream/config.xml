@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.PopStream.main" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PopStream</name>
+    <description>
+        PopStream Application
+    </description>
+    <author email="dotcarls@indiana.edu" href="http://github.com/dotcarls">
+        Tim Carlson
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

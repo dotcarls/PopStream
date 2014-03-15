@@ -1,0 +1,157 @@
+@font-face {
+  font-family: title;
+  src: url(../fonts/title.ttf);
+}
+
+body {
+  padding-top: 70px;
+  overflow-x: hidden;
+  background-color: #e1e1e1;
+  font-family: title;
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #07bdd2;
+    z-index:3;
+    padding-top:20px;
+}
+
+.navbar-header {
+	margin: 0px auto !important;
+	width:154px !important;
+	padding-top:5px;
+	padding-bottom: 5px;
+  float: none;
+}
+
+.right-triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 55px 65px 0;
+  border-color: transparent #37d645 transparent transparent;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index:4;
+  margin-top:20px;
+}
+
+.left-triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 55px 45px 0 0;
+  border-color: #37d645 transparent transparent transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+  margin-top:20px;
+}
+
+.btn-default {
+  color: white;
+  background-color: #07bdd2;
+  border-color: white;
+}
+
+.btn-default:hover {
+  background-color: #c9f9fe;
+  border-color: black;
+}
+
+.btn-default:active {
+  background-color: #dcf1fa;
+  border-color:black;
+}
+
+.row-wrapper {
+    background-color: #dcf1fa;
+    height: 180px;
+    overflow: auto;
+    margin-right: -20px;
+    margin-top: 10px;
+    padding-top: 5px;
+    overflow-y:hidden;
+}
+
+.row-scroll {
+	overflow: scroll !important;
+	height: 150px;
+	width:550px;
+  margin-left: 30px;
+  margin-top:30px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.title {
+  margin-left: 35px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+  position: absolute;
+  font-family: title;
+  color: #07bdd2;
+}
+
+span.glyphicon-arrow-up {
+    font-size: 2.3em;
+    z-index: 3;
+}
+
+span.glyphicon-arrow-down {
+    font-size: 2.3em;
+    margin-left: 2px;
+    z-index: 3;
+}
+
+.arrows {
+  width:30px;
+  height:150px;
+  padding-top:55px;
+  position: absolute;
+  background-color: #dcf1fa;
+  z-index:2;
+  margin-left:-5px;
+}
+
+.upvote {
+  color: green;
+}
+
+.downvote {
+  color: red;
+}
+
+.box {
+  height:120px;
+  width:120px;
+  
+  margin-right:5px;
+  margin-left:5px;
+  position: relative;
+  float:left;
+  overflow:hidden;
+  padding: 5px;
+  background-color: #e1f0f7;
+
+   -moz-box-shadow:    inset 1px 1px 3px #c3c3c3;
+   -webkit-box-shadow: inset 1px 1px 3px #c3c3c3;
+   box-shadow:         inset 1px 1px 3px #c3c3c3;
+
+}
+
+.box > a > img {
+  width:100%;
+  max-height: 100%;
+}
+.swipe {
+  border: 5px red solid;
+}
